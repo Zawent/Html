@@ -1,0 +1,16 @@
+:root {
+    --color-1: #eee;
+    --color-gradient-1: #376e4014;
+    --color-gradient-2: #071917;
+    --banner-1: url('../storage/img/Rectangle_1.png')
+}
+
+@font-face {
+    font-family: "Monserrat-SemiBold";
+    src: url(../storage/font/static/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Monserrat-Medium";
+    src: url(../storage/font/static/Montserrat-Medium.ttf);
+}
