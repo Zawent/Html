@@ -225,3 +225,34 @@
     font-size: 80px;
     width: max-content;
 }
+
+.carrousel {
+    display: flex;
+}
+
+.carrousel div {
+    margin: 20px;
+    padding: 20px;
+    width: 385px;
+    background: #145E2A;
+}
+
+.div_1 img{
+    width: 340px;
+    margin-bottom: 20px;
+}
+
+.div_1 h2{
+    font-family: "Montserrat-SemiBold";
+    color: var(--font-color-1);
+}
+
+.div_1 p{
+    font-family: "Montserrat-Medium";
+    width: auto;
+    color: var(--font-color-1);
+}
+
+.div_1 button{
+  
+}
