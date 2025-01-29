@@ -1,16 +1,14 @@
-:root {
-    --color-1: #eee;
+:root{
+    --font-color-1: #eee;
     --color-gradient-1: #376e4014;
     --color-gradient-2: #071917;
-    --banner-1: url('../storage/img/Rectangle_1.png')
+    --banner-1: url(../storage/img/banner.png);
 }
-
 @font-face {
-    font-family: "Monserrat-SemiBold";
-    src: url(../storage/font/static/Montserrat-SemiBold.ttf);
+    font-family: "Montserrat-SemiBold";
+    src: url(../storage/font/Montserrat/static/Montserrat-SemiBold.ttf);
 }
-
 @font-face {
-    font-family: "Monserrat-Medium";
-    src: url(../storage/font/static/Montserrat-Medium.ttf);
+    font-family: "Montserrat-Medium";
+    src: url(../storage/font/Montserrat/static/Montserrat-Medium.ttf);
 }
