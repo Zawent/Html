@@ -206,6 +206,20 @@
     width: max-content;
 }
 
+footer{
+    background-color: #071917;
+    padding: 3vh 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div{
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;
+}
+
 #my_about3 {
     background-color: #071917;
     padding: 50px 2vw;
@@ -228,18 +242,23 @@
 
 .carrousel {
     display: flex;
+    background-color: #071917;
 }
+
+
 
 .carrousel div {
     margin: 20px;
     padding: 20px;
     width: 385px;
+    height: 627px;
     background: #145E2A;
+    overflow: hidden;
 }
 
 .div_1 img{
     width: 340px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .div_1 h2{
@@ -248,11 +267,29 @@
 }
 
 .div_1 p{
-    font-family: "Montserrat-Medium";
+    font-family: "Montserrat-Regular";
     width: auto;
     color: var(--font-color-1);
+    margin-top: 2vh;
+    font-size: 20px;
 }
 
-.div_1 button{
-  
+.div_1 a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 3vh;
+    font-family: "Montserrat-Regular";
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+    width: 145px;
+    border-radius: 30px;
+   
+}
+
+.carrousel div{
+    border-radius: 40px;
 }
