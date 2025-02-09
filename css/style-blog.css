@@ -1,0 +1,139 @@
+@import url('variable.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    /* background: orange; */
+    /* padding: 15px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.ul__menu {
+    /* background: violet; */
+    /* padding: 15px; */
+    display: flex;
+    gap: 100px;
+    padding-right: 100px;
+    color: var(--font-color-1);
+}
+.ul__menu li{
+    list-style: none;
+    font-family: "Montserrat-SemiBold";
+}
+.ul__menu li a{
+    color: var(--font-color-1);
+    text-decoration: none;
+}
+
+body {
+    background: #071917;
+}
+
+main {
+    padding-top: 130px;
+}
+
+.menu2 {
+    border-top: solid 1px white;
+    padding-top: 10px;
+    margin: 0px 59px;
+    padding-right: 200px;
+}
+
+.menu2 ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu2 ul li {
+    color: white;
+    font-family: "Montserrat-Light";
+    font-size: 15px;
+}
+
+.menu2 ul li:nth-child(1) {
+    color: white;
+    font-family: "Montserrat-Light";
+    font-size: 15px;
+    background: #145E2A;
+    display: flex;
+    width: 113px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.imgText {
+    position: relative;
+    display: flex;
+    margin-top: 74px;
+}
+
+.imgText img {
+    margin-left: 30px;
+}
+
+.onlyText {
+    width: 672px;
+    position: absolute;
+    background: #145e2ad6;
+    top: 60px;
+    left: 700px;
+    padding: 32px;
+    border-radius: 30px;
+}
+
+.onlyText h4 {
+    font-family: "Montserrat-Light";
+    font-size: 28px;
+    color: white;
+    margin-bottom: 104px;
+}
+
+.onlyText h3 {
+    font-family: "Montserrat-SemiBold";
+    font-size: 28px;
+    color: white;
+    margin-bottom: 19px;
+}
+
+.onlyText p {
+    font-family: "Montserrat-Medium";
+    font-size: 25px;
+    color: white;
+    margin-bottom: 56px;
+}
+
+.onlyText a {
+    text-decoration: none;
+    font-family: "Montserrat-Light";
+    height: 35px;
+    padding: 5px 30px;
+    border-radius: 25px;
+    background: white;
+    font-size: 24px;
+    margin-left: 150px;
+}
+
+.sep {
+    margin: 40px 0px;
+}
+
+.sep h2 {
+    font-family: "Montserrat-Medium";
+    color: white;
+    font-size: 28px;
+    margin-left: 51px;
+}

@@ -89,6 +89,7 @@
     background: #071917;
     display: flex;
     justify-content: space-evenly;
+    padding: 0px 100px;
 }
 
 .section__icon img{
@@ -182,7 +183,7 @@
     position: absolute;
     bottom: 10vh;
     left: 4vw;
-    font-size: 80px;
+    font-size: 55px;
     width: max-content;
 }
 
@@ -202,7 +203,7 @@
     position: absolute;
     bottom: 10vh;
     left: 4vw;
-    font-size: 80px;
+    font-size: 55px;
     width: max-content;
 }
 
@@ -236,7 +237,7 @@ footer div{
     position: absolute;
     bottom: 10vh;
     left: 4vw;
-    font-size: 80px;
+    font-size: 55px;
     width: max-content;
 }
 
